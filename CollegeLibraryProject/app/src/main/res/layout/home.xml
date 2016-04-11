@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#e5ecff"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/textView"
+        android:background="#fff"
+        android:textSize="18dp"
+
+        android:textColor="#08253c"
+        android:textStyle="bold"
+
+        android:text="Instruction:If you want to register in college library plz take your username and password from library>"
+
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+
+        android:background="#fff"
+        android:id="@+id/textView2"
+
+        android:textColor="#000"
+        android:textStyle="bold"
+
+
+        android:textSize="18dp"
+        android:text=">username and password only issued by librarian staff"
+
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+
+        android:background="#fff"
+        android:text=">you can't delete your account by yourself"
+        android:textSize="18dp"
+
+        android:textColor="#08253c"
+        android:textStyle="bold"
+        android:id="@+id/textView3"
+
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="60dp"
+
+        android:background="#ffffff"
+        android:text=">If you have any problem with this app contact us:-"
+        android:textSize="18dp"
+
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:id="@+id/textView4"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3" />
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+
+        android:background="#fff"
+
+        android:textColor="#08253c"
+        android:textStyle="bold"
+        android:textSize="18dp"
+
+
+        android:text=">   email-archisharma301995@gmail.com"
+        android:id="@+id/textView6"
+
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="210dp"
+        android:id="@+id/imageView29"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>

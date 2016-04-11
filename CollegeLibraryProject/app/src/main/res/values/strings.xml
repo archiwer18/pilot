@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CollegeLibraryProject</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_signin">signin</string>
+    <string name="title_activity_detaillogin">detaillogin</string>
+    <string name="spinner_title">Select Category</string>
+
+    <string name="title_activity_books">books</string>
+    <string name="title_activity_researchpaper">researchpaper</string>
+    <string name="title_activity_timer">timer</string>
+    <string name="title_activity_adapter">Adapter</string>
+    <string name="title_activity_allinfo">allinfo</string>
+    <string name="title_activity_tabdetail">tabdetail</string>
+    <string name="title_activity_customlistview">Customlistview</string>
+    <string name="title_activity_searchbook">searchbook</string>
+    <string name="title_activity_first">first</string>
+    <string name="title_activity_home">home</string>
+    <string name="title_activity_login1">login1</string>
+</resources>

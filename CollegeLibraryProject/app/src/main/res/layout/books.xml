@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#e5ecff"
+    android:id="@+id/linear"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="99dp"
+        android:layout_weight="0.40">
+
+
+    </LinearLayout>
+
+    <AutoCompleteTextView
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:hint="search book name"
+        android:textColorHint="#08253c"
+
+        android:textColor="#000"
+        android:id="@+id/autoCompleteTextView"
+        android:layout_weight="0.36" />
+
+    <Button
+        android:layout_width="136dp"
+        android:layout_height="31dp"
+        android:onClick="searchBook"
+        android:text="search"
+        android:textColor="#000"
+        android:background="#1a53ff"
+        android:id="@+id/button6" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/ver">
+
+    </LinearLayout>
+
+
+</LinearLayout>
